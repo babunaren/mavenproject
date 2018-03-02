@@ -29,6 +29,13 @@
              <name>Releases</name>
              <url>http://ec2-34-213-1-39.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/releases/</url>
         </repository>
+	    
+            <snapshotRepository>
+                <id>snapshots</id>
+                <name>Snapshots</name>
+                <url>http://ec2-34-213-1-39.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+            </snapshotRepository>
+	    
     </distributionManagement>
 
 </project>
